@@ -2,7 +2,8 @@ import time, os
 import logging
 import streamlit as st
 import numpy as np
-import librosa, librosa.display
+import librosa
+import librosa.display
 import matplotlib.pyplot as plt
 from PIL import Image
 from settings import IMAGE_DIR, DURATION, WAVE_OUTPUT_FILE
